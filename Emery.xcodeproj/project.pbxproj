@@ -10,6 +10,8 @@
 		71218D2225F4277000674032 /* UIColor.extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71218D2125F4277000674032 /* UIColor.extension.swift */; };
 		71218D2525F4292700674032 /* Skintones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71218D2425F4292700674032 /* Skintones.swift */; };
 		71218D2825F4299200674032 /* SkintonePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71218D2725F4299200674032 /* SkintonePicker.swift */; };
+		714287A925FE50C2007D36CD /* NailShapePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714287A825FE50C2007D36CD /* NailShapePicker.swift */; };
+		714287B225FE563B007D36CD /* ButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714287B125FE563B007D36CD /* ButtonStyle.swift */; };
 		718ACF5C25F3907000747B48 /* EmeryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718ACF5B25F3907000747B48 /* EmeryApp.swift */; };
 		718ACF5E25F3907000747B48 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 718ACF5D25F3907000747B48 /* ContentView.swift */; };
 		718ACF6025F3907100747B48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 718ACF5F25F3907100747B48 /* Assets.xcassets */; };
@@ -25,6 +27,8 @@
 		71218D2125F4277000674032 /* UIColor.extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.extension.swift; sourceTree = "<group>"; };
 		71218D2425F4292700674032 /* Skintones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skintones.swift; sourceTree = "<group>"; };
 		71218D2725F4299200674032 /* SkintonePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkintonePicker.swift; sourceTree = "<group>"; };
+		714287A825FE50C2007D36CD /* NailShapePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NailShapePicker.swift; sourceTree = "<group>"; };
+		714287B125FE563B007D36CD /* ButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyle.swift; sourceTree = "<group>"; };
 		718ACF5825F3907000747B48 /* Emery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Emery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		718ACF5B25F3907000747B48 /* EmeryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmeryApp.swift; sourceTree = "<group>"; };
 		718ACF5D25F3907000747B48 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +99,7 @@
 				718ACF7025F39A5000747B48 /* NailMask.swift */,
 				718ACF7325F39D6800747B48 /* FingerView.swift */,
 				71218D2725F4299200674032 /* SkintonePicker.swift */,
+				714287A825FE50C2007D36CD /* NailShapePicker.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 			children = (
 				718ACF8425F3B72100747B48 /* ImageSaver.swift */,
 				71218D2425F4292700674032 /* Skintones.swift */,
+				714287B125FE563B007D36CD /* ButtonStyle.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -195,8 +201,10 @@
 				718ACF8525F3B72100747B48 /* ImageSaver.swift in Sources */,
 				718ACF6D25F3909000747B48 /* ImagePicker.swift in Sources */,
 				71218D2825F4299200674032 /* SkintonePicker.swift in Sources */,
+				714287A925FE50C2007D36CD /* NailShapePicker.swift in Sources */,
 				718ACF7125F39A5000747B48 /* NailMask.swift in Sources */,
 				718ACF5E25F3907000747B48 /* ContentView.swift in Sources */,
+				714287B225FE563B007D36CD /* ButtonStyle.swift in Sources */,
 				718ACF5C25F3907000747B48 /* EmeryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -327,7 +335,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Emery/Emery.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"Emery/Preview Content\"";
 				DEVELOPMENT_TEAM = YC249PY26F;
 				ENABLE_PREVIEWS = YES;
@@ -352,7 +360,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = Emery/Emery.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 4;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_ASSET_PATHS = "\"Emery/Preview Content\"";
 				DEVELOPMENT_TEAM = YC249PY26F;
 				ENABLE_PREVIEWS = YES;
